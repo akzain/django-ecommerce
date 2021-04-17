@@ -1,1 +1,0 @@
-theese are some django projects that i'm currently working on
