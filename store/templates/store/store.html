@@ -6,10 +6,11 @@
       float: right;
    }
 </style>
+
 <div class="row">
    {% for product in products %}
       <div class="col-lg-4">
-         <img class="thumbnail" src="{% static 'images/placeholder.png' %}" alt="placeholder">
+         <img class="thumbnail" src="{{ product.image.url }}" alt="placeholder">
          <div class="box-element product">
             <h6><strong>{{ product.name }}</strong></h6>
             <hr>
